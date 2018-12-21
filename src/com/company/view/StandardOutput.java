@@ -56,7 +56,7 @@ public class StandardOutput {
 
 	public void showResoults(MediaItem[] mediaItems){
 		for (int i = 0; i<mediaItems.length; i++){
-			System.out.println(mediaItems[i].getId() + " - " + mediaItems[i].getMetadata());
+			System.out.println(mediaItems[i].toString());
 		}
 		//TODO print resoults taken in argument
 	}

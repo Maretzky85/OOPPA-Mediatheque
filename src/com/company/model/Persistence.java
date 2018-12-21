@@ -32,6 +32,6 @@ public class Persistence {
 	}
 
 	public void editData(int id){
-		//TODO replace data by ID
+		//TODO replace data by ID and save
 	}
 }
