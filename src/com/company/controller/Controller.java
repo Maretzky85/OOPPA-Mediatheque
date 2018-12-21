@@ -7,6 +7,7 @@ public class Controller {
 
 	Persistence persistence = new Persistence();
 	StandardOutput userOutput = new StandardOutput();
+	AbstractUser user;
 
 	public Controller(){
 		persistence.importData();
